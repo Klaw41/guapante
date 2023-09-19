@@ -1,0 +1,132 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    background-color: rgb(160,200,200);
+    color: rgb(80,100,100);
+    margin: 0px;
+}
+
+.encabezado{
+    background-color: rgb(80,100,100);
+    color: rgb(225,240,240);
+}
+
+.homeheader{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+.home-element1{
+    flex-grow: 1;
+    min-width: 120px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.home-element2{
+    width: 70%;
+    min-width: 480px;
+    max-width: 100%;
+    flex-grow: 1;
+    text-align:center;
+    justify-items: center;
+    align-self:flex-end;
+}
+
+.home-element3{
+    /* width: 10%; */
+    min-width: 120px;
+    flex-grow: 1;
+    text-align: center;
+    align-self:flex-end;
+    justify-self: flex-end;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(225,240,240);
+}
+
+/* Sección MAIN del Index */
+
+.tarjeta{
+    margin: auto;
+    color: rgb(80,100,100);
+    padding: 10px;
+    background-color: rgb(225,240,240);
+    width: 80%;
+    border: solid 2px rgb(80,100,100);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(80,100,100);
+}
+
+/* Sección del formulario de contacto */
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgb(80,100,100);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#button{
+    background:#3ab193;
+    padding: 20px;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+
+/* Sección del Footer */
+
+.fúrer{
+    background-color: rgb(80,100,100);
+    color: rgb(225,240,240);
+    padding: 10px;
+}
+
+.botoncitos{
+    text-align: center;
+}
+
+.méiltu{
+    text-align:right;
+    /* text-align: center; */
+}
+
+.enlace{
+    color: rgb(225,240,240);
+    text-decoration: none;
+}
